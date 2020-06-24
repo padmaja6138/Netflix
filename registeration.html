@@ -2,9 +2,9 @@
     <head>
         <title>Netflix Registration</title>
         <style>
-            div_css{
+            .div_css{
                 background-color: cornsilk;
-                text-align: center;
+                text-align: left;
             }
         </style>
     </head>
@@ -14,23 +14,31 @@
         <hr>
         <form>
             <div class="div_css">
-                <label><b>Username *</b></label>
-                <input type="text" name="username" id ="uname" required>
-                <br/>
-                <label><b>Email address*</b></label>
-                <input type="text" name="email" id ="email" required>
-                <br/>     
-                <label><b>Password *</b></label>
-                <input type="Password" name="password" id ="password" required>
-                <br/>  
-                <label><b>Confirm Password *</b></label>
-                <input type="Password" name="Confirm_password" id ="Confirm_password" required>
+                <table>
+                    <tr>
+                     <td><label><b>Username *</b></label></td>
+                     <td><input type="text" name="username" id ="uname" required></tr></td>
+                    </tr>
+                    <tr>
+                        <td><label><b>Email address*</b></label></td>
+                        <td><input type="text" name="email" id ="email" required></td>
+                    </tr> 
+                    <tr>
+                        <td><label><b>Password *</b></label></td>
+                        <td><input type="Password" name="password" id ="password" required></td>
+                    </tr> 
+                    <tr>
+                        <td><label><b>Confirm Password *</b></label></td>
+                        <td><input type="Password" name="Confirm_password" id ="Confirm_password" required></td>
+                    </tr>   
+                </table>
                 <br/>
                 <p>Make sure it's at least 15 characters OR at least 8 characters including a number and a lowercase letter.
                 <br/>
-                <a> href="#">Learn more.</a>
+                <a href="#">Learn more.</a>
                 <br/>
                 <label><b>Email Pareferences</b></label>
+                <br/>
                 <input type="checkbox" checked ="unchecked" name="emial_prefer">
                 Send me occasional product updates, announcements, and offers. 
                 <br/>
